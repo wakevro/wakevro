@@ -1,0 +1,468 @@
+/************************************* CLEAR DEFAULT PADDIN AND MARGIN *********************************/
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "TimeBurnerRegular", "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+/************************************* CLEAR DEFAULT PADDIN AND MARGIN *********************************/
+
+/************************************* FONTS *********************************/
+@font-face {
+    font-family: TimeBurnerRegular;
+    src: url(../font/timeburnernormal.ttf);
+  }
+  @font-face {
+    font-family: TimeBurnerBold;
+    src: url(../font/timeburnerbold.ttf);
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../font/montserratregular.ttf);
+  }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/************************************* FONTS *********************************/
+
+
+
+/************************************* NAVIGATION BAR *********************************/
+
+.currentlink
+{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
+}
+
+/************************************* NAVIGATION BAR *********************************/
+
+/************************************* BODY *********************************/
+
+.universal
+{
+    height: 100vh;
+    padding: 250px 80px 20px 80px;
+}
+
+.subhead
+{
+    font-size: 45px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.regulartext
+{
+    font-size: 20px;
+    letter-spacing: 3.5px;
+    line-height: 40px;
+}
+
+
+/************************************* BODY *********************************/
+
+/**************************************** FORM  *******************************************************************/
+
+.contactblock
+{
+    width: 600px;
+}
+
+form
+{
+    margin: 0px;    
+}
+
+.inputfield
+{
+    border-radius: 10px;
+    border: none;
+    width: 600px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d7d7d709;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.messagefield
+{
+    height: 30vh;
+    width: 600px;
+    padding: 10px 20px;
+    resize: none;
+    background-color: #d7d7d709;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+
+.submitbutton
+{
+    background-color: #5c6cd2;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.submit
+{
+    margin: 10px 0px 10px 0px;
+}
+
+.submitbutton:hover
+{
+    background-color: #3345b9;
+}
+
+.contactlink
+{
+    text-decoration: none;
+    color: #5c6cd2;
+}
+
+.contactlink:hover
+{
+    color: #3345b9;
+}
+
+.form-control
+{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+  
+.error
+{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.hide
+{
+    opacity: 0;
+}
+
+.invalid
+{
+    border: 1px solid red;
+}
+
+/**************************************** FORM  *******************************************************************/
+
+/************************************* TABLET *********************************/
+@media (max-width: 1400px) and (orientation: landscape)
+{
+    .universal
+    {
+        padding: 125px 80px 20px 80px;
+    }
+
+    .subhead
+    {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 1024px) and (orientation: landscape)
+{
+    .universal
+    {
+        padding: 150px 80px 20px 80px;
+    }
+
+}
+
+@media (max-width: 1024px) and (orientation:portrait)
+{
+    .universal
+    {
+        padding: 180px 80px 20px 80px;
+    }
+    
+}
+
+@media (max-width: 768px) and (orientation: portrait)
+{
+
+}
+
+
+
+
+/************************************* TABLET *********************************/
+
+
+/************************************* MOBILE *********************************/
+
+@media (max-width: 576px)
+{
+    .universal
+    {
+        padding: 100px 30px 20px 30px;
+    }
+    
+    .subhead
+    {
+        font-size: 25px;
+        letter-spacing: 1px;
+        line-height: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .regulartext
+    {
+        font-size: 16px;
+        letter-spacing: 3px;
+        line-height: 25px;
+    }
+
+    .contactblock
+    {
+        width: 400px;
+    }    
+
+    .inputfield
+    {
+        width: 400px;
+        margin-top: 20px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .messagefield
+    {
+        width: 400px;
+        margin: 20px 0px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    
+    
+    .submitbutton
+    {
+        background-color: #5c6cd2;
+        border: none;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 420px)
+{
+    .universal
+    {
+        padding: 100px 30px 20px 30px;
+    }
+    
+    .subhead
+    {
+        font-size: 25px;
+        letter-spacing: 1px;
+        line-height: 17px;
+        margin-bottom: 17px;
+    }
+    
+    .regulartext
+    {
+        font-size: 14px;
+        letter-spacing: 2.5px;
+        line-height: 20px;
+    }
+
+    .contactblock
+    {
+        width: 300px;
+    }
+
+    .inputfield
+    {
+        width: 300px;
+        height: 40px;
+        margin-top: 16px;
+        font-size: 18px;
+    }
+    
+    .messagefield
+    {
+        width: 300px;
+        margin: 16px 0px;
+        font-size: 20px;
+    }
+    
+    
+    .submitbutton
+    {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    
+}
+
+@media (max-width: 320px)
+{
+    .universal
+    {
+        padding: 90px 30px 20px 30px;
+    }
+
+    .contactblock
+    {
+        width: 250px;
+    }    
+    
+    .subhead
+    {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 16px;
+        margin-bottom: 14px;
+    }
+    
+    .regulartext
+    {
+        font-size: 12px;
+        letter-spacing: 2px;
+        line-height: 20px;
+    }
+
+    .inputfield
+    {
+        width: 220px;
+        height: 40px;
+        margin-top: 16px;
+        font-size: 14px;
+    }
+    
+    .messagefield
+    {
+        width: 220px;
+        margin: 16px 0px 5px 0px;
+        font-size: 14px;
+    }
+    
+    
+    .submitbutton
+    {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    
+}
+
+    
+@media (max-width: 824px) and (orientation: landscape)
+{
+    .universal
+    {
+        padding: 90px 30px 20px 30px;
+    }
+    
+    .subhead
+    {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 14px;
+        margin-bottom: 14px;
+    }
+    
+    .regulartext
+    {
+        font-size: 12px;
+        letter-spacing: 2px;
+        line-height: 14px;
+    }
+
+    .contactblock
+    {
+        width: 300px;
+    }
+
+    .inputfield
+    {
+        width: 300px;
+        height: 25px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    
+    .messagefield
+    {
+        width: 300px;
+        height: 20vh;
+        margin: 10px 0px 2px 0px;
+        font-size: 14px;
+    }
+    
+    
+    .submitbutton
+    {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }    
+    
+}
+
+@media (max-width: 569px) and (orientation: landscape)
+{
+    .universal
+    {
+        padding: 80px 50px 20px 50px;
+    }
+    
+    .contactblock
+    {
+        width: 300px;
+    }
+
+    .inputfield
+    {
+        width: 300px;
+        height: 22px;
+        margin-top: 10px;
+        font-size: 12px;
+        padding: 10px;
+    }
+    
+    .messagefield
+    {
+        width: 300px;
+        height: 20vh;
+        margin: 10px 0px 2px 0px;
+        font-size: 12px;
+        padding: 10px;
+    }    
+
+    .submitbutton
+    {
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 8px;
+    }
+
+    footer
+    {
+        bottom: 2px;
+    }
+}
+
+/************************************* MOBILE *********************************/

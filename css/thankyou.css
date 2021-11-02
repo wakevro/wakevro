@@ -1,0 +1,317 @@
+/************************************* CLEAR DEFAULT PADDIN AND MARGIN *********************************/
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "TimeBurnerRegular", "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+/************************************* CLEAR DEFAULT PADDIN AND MARGIN *********************************/
+
+/************************************* FONTS *********************************/
+@font-face {
+    font-family: TimeBurnerRegular;
+    src: url(../font/timeburnernormal.ttf);
+  }
+  @font-face {
+    font-family: TimeBurnerBold;
+    src: url(../font/timeburnerbold.ttf);
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../font/montserratregular.ttf);
+  }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/************************************* FONTS *********************************/
+
+
+
+/************************************* NAVIGATION BAR *********************************/
+
+
+/************************************* NAVIGATION BAR *********************************/
+
+/************************************* BODY *********************************/
+
+.universal
+{
+    height: 100vh;
+    padding: 150px 80px 20px 80px;
+}
+
+.mainhead
+{
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.regulartext
+{
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+
+
+.view
+{
+    margin-top: 55vh;
+    text-align: center;
+}
+/************************************* BODY *********************************/
+
+/************************************* TABLET *********************************/
+
+/************************************* TABLET *********************************/
+@media (max-width: 1200px)
+{    
+    .universal
+    {
+        height: 100vh;
+        padding: 150px 80px 20px 80px;
+    }
+
+    .mainhead
+    {
+        font-size: 55px;
+        margin-bottom: 35px;
+    }
+    
+    .regulartext
+    {
+        font-size: 25px;
+        line-height: 40px;
+    }
+       
+    .view
+    {
+        margin-top: 52vh;
+    }
+}
+@media (max-width: 1024px)
+{
+    
+    .mainhead
+    {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .regulartext
+    {
+        font-size: 18px;
+    }
+    
+    
+    .view
+    {
+        margin-top: 40vh;
+    }
+}
+
+@media (max-width: 1024px) and (orientation: portrait)
+{
+    
+    .mainhead
+    {
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+    
+    .regulartext
+    {
+        font-size: 25px;
+    }
+    
+    
+    .view
+    {
+        margin-top: 65vh;
+    }
+}
+
+@media (max-width: 768px) and (orientation: portrait)
+{
+
+    .mainhead
+    {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .regulartext
+    {
+        font-size: 18px;
+    }
+    
+    
+    .view
+    {
+        margin-top: 60vh;
+    }
+
+}
+
+
+/************************************* MOBILE *********************************/
+
+@media (max-width: 576px)
+{
+    .universal
+    {
+        height: 100vh;
+        padding: 150px 30px 20px 30px;
+    }
+
+    .mainhead
+    {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .regulartext
+    {
+        font-size: 18px;
+    }
+    
+    
+    .view
+    {
+        margin-top: 45vh;
+    }
+
+}
+
+@media (max-width: 420px)
+{
+    .universal
+    {
+        height: 100vh;
+        padding: 150px 30px 20px 30px;
+    }
+
+    .mainhead
+    {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .regulartext
+    {
+        font-size: 16px;
+    }
+    
+    
+    .view
+    {
+        margin-top: 45vh;
+    }
+}
+
+@media (max-width: 360px)
+{
+    .universal
+    {
+        height: 80vh;
+        padding: 120px 30px 20px 30px;
+    }
+
+    .mainhead
+    {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .regulartext
+    {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    
+    .view
+    {
+        margin-top: 35vh;
+    }
+    
+    footer img
+    {
+        height: 15px;
+    }
+
+}
+
+    
+@media (max-width: 824px) and (orientation: landscape)
+{
+    .universal
+    {
+        height: 100vh;
+        padding: 120px 30px 20px 30px;
+    }
+
+    .mainhead
+    {
+        font-size: 25px;
+        line-height: 10px;
+    }
+    
+    .regulartext
+    {
+        font-size: 16px;
+    }
+    
+    
+    .view
+    {
+        margin-top: 30vh;
+    }
+
+    footer
+    {
+        bottom: 10px;
+    }
+
+    footer img
+    {
+        height: 10px;
+    }
+}
+
+@media (max-width: 700px) and (orientation: landscape)
+{
+    .universal
+    {
+        padding: 90px 30px 20px 30px;
+    }
+    
+    .subhead
+    {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 14px;
+        margin-bottom: 14px;
+    }
+    
+    .regulartext
+    {
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 15px;
+    }
+    
+    .view
+    {
+        margin-top: 35vh;
+    }
+
+    footer
+    {
+        bottom: 2px;
+    }
+}
+
+/************************************* MOBILE *********************************/

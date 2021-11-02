@@ -1,0 +1,400 @@
+/************************************* CLEAR DEFAULT PADDIN AND MARGIN *********************************/
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "TimeBurnerRegular", "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+/************************************* CLEAR DEFAULT PADDIN AND MARGIN *********************************/
+
+/************************************* FONTS *********************************/
+@font-face {
+    font-family: TimeBurnerRegular;
+    src: url(../font/timeburnernormal.ttf);
+  }
+  @font-face {
+    font-family: TimeBurnerBold;
+    src: url(../font/timeburnerbold.ttf);
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../font/montserratregular.ttf);
+  }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/************************************* FONTS *********************************/
+
+
+
+/************************************* NAVIGATION BAR *********************************/
+
+.currentlink
+{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
+}
+
+/************************************* NAVIGATION BAR *********************************/
+
+/************************************* BODY *********************************/
+.universal
+{
+    margin: 75px 0px 10px 0px;
+    overflow-x: hidden;
+}
+
+.mainhead
+{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;    
+}
+
+.subhead
+{
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.regulartext
+{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+
+.viewmore
+{
+    color: #5c6cd2;
+    text-decoration: none;
+}
+
+.viewmore:hover
+{
+    color: #3345b9;
+}
+
+
+
+.underline
+{
+    text-decoration-thickness: 4px;
+    text-underline-offset: 7px;
+    text-decoration-color: #5c6cd2;
+    color: #d7d7d7;
+}
+
+.gradient
+{
+    margin: 0px 0px 40px 0px;
+    padding: 40px 120px 40px 80px;
+    background-image: url(../images/workgradient@2x.png);
+    width: 100vw;
+    height: 378px;
+
+}
+
+
+.gradientwork
+{
+    margin: 0px;
+    float: right;
+    width: 642px;
+    height: 297px;
+}
+
+.gradientwork:hover
+{
+    width: 660px;
+    height: 310px;
+}
+
+
+/************************************* BODY *********************************/
+
+/************************************* TABLET *********************************/
+
+/************************************* TABLET *********************************/
+@media (max-width: 1024px)
+{
+
+    .gradient
+    {
+        height: 300px;
+    }
+
+    .gradientwork
+    {
+        width: 400px;
+        height: 200px;
+    }
+
+    .gradientwork:hover
+    {
+        width: 415px;
+        height: 210px;
+    }    
+
+}
+
+@media (max-width: 1024px) and (orientation:portrait)
+{
+ 
+
+
+    .gradient
+    {
+        margin: 0px 0px 25px 0px;
+        height: 300px;
+    }
+
+    .gradientwork
+    {
+        width: 400px;
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 768px) and (orientation: portrait)
+{
+    .mainhead
+    {
+        font-size: 22px;   
+    }
+    
+    .subhead
+    {
+        font-size: 18px;
+    }
+    
+    .regulartext
+    {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .gradient
+    {
+        margin: 0px 0px 25px 0px;
+        height: 250px;
+    }
+
+    .gradientwork
+    {
+        width: 300px;
+        height: 150px;
+    }
+
+}
+
+
+/************************************* MOBILE *********************************/
+
+@media (max-width: 576px)
+{
+
+    .mainhead
+    {
+        font-size: 20px;
+    }
+    
+    .subhead
+    {
+        font-size: 16px;
+        line-height: 10px;
+    }
+    
+    .regulartext
+    {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .gradient
+    {
+        margin: 0px 0px 20px 0px;
+        padding: 20px 30px 0px 30px;
+        height: 300px;
+    }
+
+    .gradientwork
+    {
+        float: left;
+    }
+
+    .gradienttext
+    {
+        padding-top: 180px;
+    }
+
+    footer
+    {
+        bottom: 2px;
+    }    
+
+}
+
+@media (max-width: 400px)
+{
+    
+}
+
+@media (max-width: 320px)
+{
+    .gradientwork
+    {
+        width: 270px;
+        height: 150px;
+    }
+    .subhead
+    {
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 2px;
+    }
+
+    footer
+    {
+        bottom: 2px;
+    }    
+
+}
+
+    
+@media (max-width: 900px) and (orientation: landscape)
+{
+    .mainhead
+    {
+        font-size: 22px;   
+    }
+    
+    .subhead
+    {
+        font-size: 16px;
+    }
+    
+    .regulartext
+    {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .gradient
+    {
+        margin: 0px 0px 25px 0px;
+        height: 250px;
+    }
+
+    .gradientwork
+    {
+        width: 300px;
+        height: 150px;
+    }
+
+}
+
+@media (max-width: 670px) and (orientation: landscape)
+{
+    .mainhead
+    {
+        font-size: 22px; 
+        line-height: 25px;  
+    }
+    
+    .subhead
+    {
+        font-size: 16px;
+    }
+    
+    .regulartext
+    {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .gradient
+    {
+        margin: 0px 0px 25px 0px;
+        height: 250px;
+        padding: 30px;
+    }
+
+    .gradientwork
+    {
+        float: right;
+        width: 300px;
+        height: 150px;
+    }
+
+    .gradienttext
+    {
+        padding: 0px;
+        float: left;
+    }
+
+    .social img
+    {
+        height: 10px;
+    }
+
+    footer
+    {
+        bottom: 2px;
+    }
+
+
+}
+
+@media (max-width: 569px) and (orientation: landscape)
+{
+    .mainhead
+    {
+        font-size: 18px;   
+    }
+    
+    .subhead
+    {
+        font-size: 11px;
+    }
+    
+    .regulartext
+    {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .gradient
+    {
+        margin: 0px 0px 25px 0px;
+        height: 200px;
+    }
+
+    .gradientwork
+    {
+        float: right;
+        width: 300px;
+        height: 150px;
+    }
+
+    .gradienttext
+    {
+        padding: 0px;
+        float: left;
+    }
+
+    .social img
+    {
+        height: 10px;
+    }
+
+    footer
+    {
+        bottom: 2px;
+    }
+
+}
+/************************************* MOBILE *********************************/
