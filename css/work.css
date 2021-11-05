@@ -134,8 +134,8 @@
 
     .gradientwork:hover
     {
-        width: 415px;
-        height: 210px;
+        width: 400px;
+        height: 200px;
     }    
 
 }
@@ -157,6 +157,11 @@
         height: 200px;
     }
 
+    .gradientwork:hover
+    {
+        width: 400px;
+        height: 200px;        
+    } 
 }
 
 @media (max-width: 768px) and (orientation: portrait)
@@ -189,6 +194,11 @@
         height: 150px;
     }
 
+    .gradientwork:hover
+    {
+        width: 300px;
+        height: 150px;
+    }    
 }
 
 
@@ -234,6 +244,9 @@
     footer
     {
         bottom: 2px;
+        background-color: #121212;
+        position: relative;
+        padding: 30px;
     }    
 
 }
@@ -250,6 +263,13 @@
         width: 270px;
         height: 150px;
     }
+
+    .gradientwork:hover
+    {
+        width: 270px;
+        height: 150px;
+    }    
+
     .subhead
     {
         font-size: 14px;
@@ -261,6 +281,14 @@
     {
         bottom: 2px;
     }    
+
+    footer
+    {
+        bottom: 2px;
+        background-color: #121212;
+        position: relative;
+        padding: 30px;
+    }     
 
 }
 
@@ -295,6 +323,11 @@
         height: 150px;
     }
 
+    .gradientwork:hover
+    {
+        width: 300px;
+        height: 150px;
+    }    
 }
 
 @media (max-width: 670px) and (orientation: landscape)
@@ -329,6 +362,13 @@
         width: 300px;
         height: 150px;
     }
+
+    .gradientwork:hover
+    {
+        float: right;
+        width: 300px;
+        height: 150px;
+    }    
 
     .gradienttext
     {
@@ -379,6 +419,13 @@
         width: 300px;
         height: 150px;
     }
+
+    .gradientwork:hover
+    {
+        float: right;
+        width: 300px;
+        height: 150px;
+    }    
 
     .gradienttext
     {
