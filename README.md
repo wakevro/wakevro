@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Hi 👋, I'm Richard Abhulimhen</h1>
 <h3 align="center">A passionate Web and Android developer.</h3>
 <img align="right" alt="Richard Abhulimhen" width="400" src="https://imgur.com/wp7K0bJ.png">
