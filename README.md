@@ -1,7 +1,5 @@
 ### Hi there 👋🏾
 
-<img align="right" alt="Richard Abhulimhen" width="400" src="https://imgur.com/wp7K0bJ.png">
-
 
 - I am Richard, Mobile Developer &  Graphic Artist.
 - 🌱 Currently, building beautiful apps with Flutter & Dart 💙.
