@@ -3,8 +3,6 @@
 
 - I am Richard, Mobile Developer &  Graphic Artist.
 - 🌱 Currently, building beautiful apps with Flutter & Dart 💙.
-- 🔭 I’m currently working on [My Notes](https://github.com/wakevro/my-notes-flutter)
-- 🌱 I’m currently learning **Flutter**
 - 💬 Let's talk about **Java, Python, Flutter**.
 - ⚡ Fun fact **I create digital art.**
 <div align="center">
