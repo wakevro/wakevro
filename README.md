@@ -1,9 +1,9 @@
 ### Hi there 👋🏾
 
 
-- I am Richard, Mobile Developer &  Graphic Artist.
+- I am Richard, Software Engineer & Graphic Artist.
 - 🌱 Currently, building beautiful apps with Flutter & Dart 💙.
-- 💬 Let's talk about **Java, Python, Flutter**.
+- 💬 Let's talk about **Python**, **Flutter**, **Javascript**, **Java**.
 - ⚡ Fun fact **I create digital art.**
 <div align="center">
   <a href="https://github.com/wakevro">
